@@ -17,7 +17,7 @@ public class Retrofitclien {
 
     public void setRetrofitclien() {
        Retrofit retrofit = new Retrofit.Builder().baseUrl("\n" +
-               "http://api.brainshop.ai/get?bid=165946&key=0KiXSBDeXZ4wZQtb&uid=[uid]&msg=[hello]")
+               "api with key")
                .addConverterFactory(GsonConverterFactory.create())
                .build();
        retrofitInterface = retrofit.create(RetrofitInterface.class);
