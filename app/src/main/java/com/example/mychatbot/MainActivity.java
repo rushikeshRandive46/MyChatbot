@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Instantiate the RequestQueue.
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url = "http://api.brainshop.ai/get?bid=165946&key=0KiXSBDeXZ4wZQtb&uid=[uid]&msg=[hello]/";
+        String url = "api link";
 
 // Request a string response from the provided URL.
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
